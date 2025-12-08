@@ -1,0 +1,68 @@
+/* Custom Navbar Appearance */
+.custom-navbar {
+  background: linear-gradient(to right, #000000, #1a0000);
+  padding: 27px;
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white !important;
+}
+
+.logo span {
+  color: #ff3c3c;
+}
+
+/* Nav links */
+.nav-link {
+  color: #fff !important;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 0.5px;
+}
+
+.nav-link:hover {
+  color: #ff4d4d !important;
+}
+
+.nav-link.active {
+  color: #ff4d4d !important;
+}
+
+.nav-link.active::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: red;
+  margin-top: 4px;
+  transition: width 0.3s ease;
+}
+
+/* Hamburger icon in red */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 30 30'%3e%3cpath stroke='red' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22' /%3e%3c/svg%3e");
+  width: 30px;
+  height: 30px;
+}
+
+/* Collapse menu mobile */
+@media (max-width: 991px) {
+  .navbar-nav {
+    background-color: #0d0d0d;
+    padding: 1rem 0;
+    border-top: 1px solid rgba(255, 0, 0, 0.3);
+  }
+
+  .nav-link {
+    padding: 0.7rem 1.5rem;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+}

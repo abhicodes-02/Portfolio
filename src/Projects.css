@@ -1,0 +1,139 @@
+/* Base Section */
+.project-section {
+  background-color: #000;
+  color: white;
+  padding: 5rem 1.5rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title Styling */
+.project-title {
+  font-size: 3.2rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.project-title span {
+  color: #e74c3c;
+}
+
+/* Grid Layout */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+/* Individual Project Card */
+.project-card {
+  background: linear-gradient(145deg, #111, #1c1c1c);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(231, 76, 60, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 30px rgba(231, 76, 60, 0.4);
+}
+
+/* Card Content */
+.project-card h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+  color: #fff;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #bbb;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Tech Stack Styling */
+.tech-stack {
+  margin-bottom: 1rem;
+}
+
+.tech-stack span {
+  display: inline-block;
+  background-color: #c0392b;
+  padding: 0.4rem 0.7rem;
+  margin: 0.25rem;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Link Button */
+.project-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #e74c3c;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.project-card a:hover {
+  background-color: #e74c3c;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 2.2rem;
+  }
+
+  .project-card {
+    padding: 1.5rem;
+  }
+
+  .project-card h2 {
+    font-size: 1.4rem;
+  }
+
+  .project-card p {
+    font-size: 0.95rem;
+  }
+
+  .tech-stack span {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-section {
+    padding: 3rem 1rem;
+  }
+
+  .project-title {
+    font-size: 2rem;
+  }
+
+  .project-card {
+    padding: 1.2rem;
+  }
+
+  .project-card a {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+}

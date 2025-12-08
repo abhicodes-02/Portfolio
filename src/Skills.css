@@ -1,0 +1,126 @@
+.skills-section {
+  background-color: #000;
+  color: #fff;
+  padding: 5rem 3rem;
+  text-align: center;
+}
+
+.skills-heading {
+  font-size: 3.2rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
+  color: #fff;
+  border-bottom: 3px solid red;
+  display: inline-block;
+  padding-bottom: 0.6rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.skills-card {
+  background: linear-gradient(145deg, #111, #1c1c1c);
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 5px 20px rgba(255, 0, 0, 0.1);
+  transition: all 0.4s ease;
+}
+
+.skills-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(255, 0, 0, 0.3);
+  border-color: rgba(255, 0, 0, 0.8);
+}
+
+.skills-card h3 {
+  color: #ff2d2d;
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 1px dashed rgba(255, 0, 0, 0.4);
+  padding-bottom: 0.4rem;
+}
+
+.skills-card ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.skills-card li {
+  font-size: 1.05rem;
+  padding: 0.4rem 0.8rem;
+  margin-bottom: 6px;
+  border-left: 3px solid transparent;
+  transition: all 0.3s ease;
+  position: relative;
+  padding-left: 1.5rem;
+  color: #ddd;
+}
+
+.skills-card li::before {
+  content: '➤';
+  position: absolute;
+  left: 0;
+  color: #fb4b1a;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.skills-card li:hover {
+  background-color: rgba(255, 0, 0, 0.05);
+  border-left: 3px solid red;
+  color: #fff;
+}
+
+.skills-card li:hover::before {
+  transform: scale(1.2);
+  color: #ff5722;
+}
+
+/* Optional: Add subtle fade-in animation on load */
+.skills-card {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.skills-card:nth-child(odd) {
+  animation-delay: 0.2s;
+}
+.skills-card:nth-child(even) {
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive tweaks */
+@media (max-width: 480px) {
+  .skills-heading {
+    font-size: 2.2rem;
+  }
+
+  .skills-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .skills-card li {
+    font-size: 0.95rem;
+  }
+}
