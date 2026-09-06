@@ -52,8 +52,8 @@
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #ff4d4d;
-  box-shadow: 0 0 8px #ff4d4d;
+  border-color: #ff0000;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.8), 0 0 5px rgba(255, 0, 0, 0.5) inset;
 }
 
 .contact-form textarea {
@@ -76,9 +76,9 @@
 }
 
 .contact-form button:hover {
-  background-color: #e74c3c;
-  box-shadow: 0 0 25px rgba(231, 76, 60, 0.9);
-  transform: scale(1.05);
+  background-color: #ff0000;
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.9), 0 0 15px rgba(255, 0, 0, 0.5);
+  transform: scale(1.05) translateY(-2px);
 }
 
 @media screen and (max-width: 600px) {

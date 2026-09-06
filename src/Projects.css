@@ -35,16 +35,18 @@
   background: linear-gradient(145deg, #111, #1c1c1c);
   padding: 2rem;
   border-radius: 16px;
-  box-shadow: 0 0 20px rgba(231, 76, 60, 0.25);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
   text-align: left;
   position: relative;
   overflow: hidden;
+  border: 1px solid transparent;
 }
 
 .project-card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 0 30px rgba(231, 76, 60, 0.4);
+  transform: scale(1.04) translateY(-5px);
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.8), 0 15px 40px rgba(255, 0, 0, 0.4);
+  border: 1px solid #ff0000;
 }
 
 /* Card Content */

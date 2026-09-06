@@ -34,9 +34,9 @@
 }
 
 .skills-card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 10px 25px rgba(255, 0, 0, 0.3);
-  border-color: rgba(255, 0, 0, 0.8);
+  transform: scale(1.04) translateY(-5px);
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.7), 0 15px 35px rgba(255, 0, 0, 0.3);
+  border-color: #ff0000;
 }
 
 .skills-card h3 {
