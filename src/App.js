@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import Education from './Education';
 import Skills from './Skills';
+import Experience from './Experience';
 import Projects from './Projects';
 import ContactMe from './ContactMe';
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/education" element={<Education />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contactme" element={<ContactMe />} />
       </Routes>

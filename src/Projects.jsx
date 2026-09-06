@@ -3,6 +3,12 @@ import "./Projects.css";
 
 const projects = [
   {
+    title: "AddaSync",
+    description: "A robust video-conferencing application designed for seamless real-time communication.",
+    tech: ["React", "WebRTC", "Node.js", "WebSockets"],
+    link: "https://addasync.web.app/",
+  },
+  {
     title: "University Management System",
     description: "A full-stack University Management System using Advanced Java (J2EE Development).",
     tech: ["HTML5", "CSS3", "Oracle DB","APACHE TOMCAT","SERVLET","JSP"],
@@ -12,7 +18,7 @@ const projects = [
     title: "Soil Farming Agent",
     description: "A full-stack Soil Farming Agent System using Advanced Java (J2EE Development).",
     tech: ["HTML5", "CSS3", "Oracle DB","APACHE TOMCAT","SERVLET","JSP"],
-    link: "https://github.com/abhicodes-02/SoilFarmingAgent/tree/master/Soil%20Farming%20Agent",
+    link: "https://github.com/abhicodes-02/SoilFarmingAgent/",
   },
   {
     title: "Portfolio Website",

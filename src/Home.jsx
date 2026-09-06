@@ -3,7 +3,7 @@ import Particles from 'react-tsparticles';
 import { loadSlim } from 'tsparticles-slim';
 import './Home.css';
 import Image from './IMAGE.png';
-import CV from './Abhimannyu_Choudhury_CV.pdf';
+import CV from './Abhimannyu Choudhury CV.pdf';
 import { Typewriter } from 'react-simple-typewriter';
 
 const Home = () => {

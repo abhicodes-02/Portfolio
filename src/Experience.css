@@ -1,0 +1,145 @@
+/* Base Section */
+.experience-section {
+  background-color: #000;
+  color: white;
+  padding: 5rem 1.5rem;
+  text-align: center;
+}
+
+/* Title Styling */
+.experience-title {
+  font-size: 3.2rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.experience-title span {
+  color: #ff0000;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+}
+
+/* Grid Layout */
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+/* Individual Experience Card */
+.experience-card {
+  background: linear-gradient(145deg, #111, #1c1c1c);
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 0, 0, 0.3);
+  box-shadow: 0 5px 20px rgba(255, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-card:hover {
+  transform: scale(1.04) translateY(-5px);
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.7), 0 15px 35px rgba(255, 0, 0, 0.3);
+  border-color: #ff0000;
+}
+
+/* Card Content */
+.experience-card h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.experience-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #ff0000;
+  text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+}
+
+.experience-card .duration {
+  display: inline-block;
+  background-color: rgba(255, 0, 0, 0.15);
+  padding: 0.4rem 0.9rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  color: #ff4d4d;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  border: 1px solid rgba(255, 0, 0, 0.3);
+  align-self: flex-start;
+}
+
+.experience-card p {
+  font-size: 1.05rem;
+  color: #ccc;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+/* Button Group Styling */
+.experience-btn-group {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.experience-btn-group button {
+  background: transparent;
+  color: #ff4d4d;
+  border: 1.5px solid #ff4d4d;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.experience-btn-group button:hover {
+  background: #ff0000;
+  color: #fff;
+  border-color: #ff0000;
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+}
+
+.experience-btn-group a {
+  text-decoration: none;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .experience-section {
+    padding: 4rem 1rem;
+  }
+  .experience-title {
+    font-size: 2.6rem;
+  }
+  .experience-card {
+    padding: 2rem 1.5rem;
+  }
+  .experience-card h2 {
+    font-size: 1.4rem;
+  }
+  .experience-card h3 {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 480px) {
+  .experience-title {
+    font-size: 2.2rem;
+  }
+  .experience-btn-group button {
+    width: 100%;
+  }
+}
+
