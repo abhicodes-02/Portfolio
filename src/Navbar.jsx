@@ -16,7 +16,14 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg custom-navbar sticky-top">
       <div className="container-fluid px-4">
-        <NavLink className="navbar-brand logo" to="/home">
+        <NavLink className="navbar-brand logo d-flex align-items-center" to="/home">
+          <img 
+            src={process.env.PUBLIC_URL + '/favicon.svg'} 
+            alt="AC Logo" 
+            width="45" 
+            height="45" 
+            className="me-2"
+          />
           My<span>Portfolio</span>
         </NavLink>
         <button
