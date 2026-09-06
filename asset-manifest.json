@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.73313405.css",
-    "main.js": "/Portfolio/static/js/main.1f279465.js",
+    "main.css": "/Portfolio/static/css/main.342cbe00.css",
+    "main.js": "/Portfolio/static/js/main.ee14ed00.js",
     "static/js/453.83234151.chunk.js": "/Portfolio/static/js/453.83234151.chunk.js",
     "static/media/Carmel School.png": "/Portfolio/static/media/Carmel School.04d325fcddcde776cf28.png",
+    "static/media/IPAC Fellowship completion Certificate.pdf": "/Portfolio/static/media/IPAC Fellowship completion Certificate.b3a43f10645370ad468b.pdf",
     "static/media/MCA4thSemresult.jpg": "/Portfolio/static/media/MCA4thSemresult.980c266acaa6b986142d.jpg",
     "static/media/MCA3rdSemresult.jpg": "/Portfolio/static/media/MCA3rdSemresult.c9a70cbc77157c74dd7e.jpg",
     "static/media/MCA2ndSemresult.jpg": "/Portfolio/static/media/MCA2ndSemresult.6028a1907ae11b1f0f52.jpg",
     "static/media/MCA1stSemresult.jpg": "/Portfolio/static/media/MCA1stSemresult.e149ca18a2eabb1c4854.jpg",
+    "static/media/Abhimannyu Choudhury CV.pdf": "/Portfolio/static/media/Abhimannyu Choudhury CV.8d08bef596bdeff00d1e.pdf",
     "static/media/IMAGE.png": "/Portfolio/static/media/IMAGE.69b133480d129b21aa04.png",
     "static/media/12th Marksheet.pdf": "/Portfolio/static/media/12th Marksheet.f5dfd11f1863275a3393.pdf",
     "static/media/10th Mark Sheet.pdf": "/Portfolio/static/media/10th Mark Sheet.4c32df4b50e4ce37fcb6.pdf",
     "static/media/Techno India University.JPG": "/Portfolio/static/media/Techno India University.69114f067ab34ca7a765.JPG",
     "static/media/Techno India Salt Lake.jpg": "/Portfolio/static/media/Techno India Salt Lake.42523ddafafcdac2988a.jpg",
-    "static/media/Abhimannyu_Choudhury_CV.pdf": "/Portfolio/static/media/Abhimannyu_Choudhury_CV.02be66820c67064a7176.pdf",
     "static/media/3rdsembca.pdf": "/Portfolio/static/media/3rdsembca.02fabdc9946ab476a22d.pdf",
     "static/media/6thsembca.pdf": "/Portfolio/static/media/6thsembca.550e8d3f18e0ef2297ff.pdf",
     "static/media/4thsembca.pdf": "/Portfolio/static/media/4thsembca.e9b44f11d02651bcda9f.pdf",
@@ -21,12 +22,12 @@
     "static/media/5thsembca.pdf": "/Portfolio/static/media/5thsembca.01d62a05d4a9fc95b246.pdf",
     "static/media/2ndsembca.pdf": "/Portfolio/static/media/2ndsembca.2a5b8790e1be5267fe74.pdf",
     "index.html": "/Portfolio/index.html",
-    "main.73313405.css.map": "/Portfolio/static/css/main.73313405.css.map",
-    "main.1f279465.js.map": "/Portfolio/static/js/main.1f279465.js.map",
+    "main.342cbe00.css.map": "/Portfolio/static/css/main.342cbe00.css.map",
+    "main.ee14ed00.js.map": "/Portfolio/static/js/main.ee14ed00.js.map",
     "453.83234151.chunk.js.map": "/Portfolio/static/js/453.83234151.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73313405.css",
-    "static/js/main.1f279465.js"
+    "static/css/main.342cbe00.css",
+    "static/js/main.ee14ed00.js"
   ]
 }
